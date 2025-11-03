@@ -36,14 +36,6 @@
   font-weight:700;
 }
 
-.fireworks-row {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin:-130px -150px;
-}
-.fire-left,.fire-right{width: 200px;height:auto;opacity:0.95}
-
 .intro {
   font-size:20px;color:#111;margin:120px 0 10px;
 }
