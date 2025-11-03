@@ -1,0 +1,84 @@
+.hero {
+  position:relative;
+  background: linear-gradient(#fff,#fff);
+}
+
+.hero-content {
+  max-width:900px;
+  margin: 0px auto 40px;
+  background: white;
+  padding:36px 28px 60px;
+  text-align:center;
+  border-radius: 4px;
+  position:relative;
+  z-index:2;
+}
+
+.lead {
+  font-family:"Montserrat", "Poppins", sans-serif;
+  font-size:35px;
+  font-weight:600;
+  color:#000;
+  margin-bottom:8px;
+}
+
+.title {
+  font-size:55px;
+  color: var(--red);
+  font-weight:800;
+  margin:0px -50px;
+}
+
+.year {
+  font-size:55px;
+  margin-bottom:0px;
+  color:#c83632;
+  font-weight:700;
+}
+
+.fireworks-row {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin:-130px -150px;
+}
+.fire-left,.fire-right{width: 200px;height:auto;opacity:0.95}
+
+.intro {
+  font-size:20px;color:#111;margin:120px 0 10px;
+}
+.links-row {
+  display:flex;gap:24px;justify-content:center;margin:8px 0 6px;
+}
+.underline-link {
+  font-weight:700;text-decoration:underline;color:#0b0b0b;font-size:35px;
+  transition:color 0.25s ease;
+}
+
+.and-text{margin-top:12px;font-size:20px}
+.ringriding{
+  text-decoration:underline;
+  font-size:50px;
+  margin:8px 0;
+  font-weight:800;
+  transition:color 0.25s ease;
+}
+
+.dates {
+  color:var(--red);
+  font-weight:600;
+  margin:18px 0;
+  font-size:20px;
+  font-style:italic;
+}
+
+.cta {
+  display:inline-block;
+  background:var(--red);
+  color:var(--white);
+  padding:14px 34px;
+  border-radius:16px;
+  text-decoration:none;
+  font-weight:700;
+  box-shadow: 0 6px 0 rgba(0,0,0,0.08);
+}
